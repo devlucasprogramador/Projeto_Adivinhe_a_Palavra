@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" defer>
+    <script src="script.js"></script>
+    <title>Jogo da Forca</title>
+</head>
+
+<body class="body_forca">
+    <div id="container">
+        <!-- <div id="image"></div>
+        <div id="keyword"></div> -->
+        <button class="Iniciar" onclick="inicio()"> Iniciar Jogo</button>
+
+        <p class="palavraSorteada"></p>
+        <p class="descontoAtual"></p>
+        <p class="fraseMotivacional"></p>
+
+        <section id="keyboard">
+            <button class="btKey" id="a" onclick="inicia('a')">A</button>
+            <button class="btKey" id="b" onclick="inicia('b')">B</button>
+            <button class="btKey" id="c" onclick="inicia('c')">C</button>
+            <button class="btKey" id="d" onclick="inicia('d')">D</button>
+            <button class="btKey" id="e" onclick="inicia('e')">E</button>
+            <button class="btKey" id="f" onclick="inicia('f')">F</button>
+            <button class="btKey" id="g" onclick="inicia('g')">G</button>
+            <button class="btKey" id="h" onclick="inicia('h')">H</button>
+            <button class="btKey" id="i" onclick="inicia('i')">I</button>
+            <button class="btKey" id="j" onclick="inicia('j')">J</button>
+            <button class="btKey" id="k" onclick="inicia('k')">K</button>
+            <button class="btKey" id="l" onclick="inicia('l')">L</button>
+            <button class="btKey" id="m" onclick="inicia('m')">M</button>
+            <button class="btKey" id="n" onclick="inicia('n')">N</button>
+            <button class="btKey" id="o" onclick="inicia('o')">O</button>
+            <button class="btKey" id="p" onclick="inicia('p')">P</button>
+            <button class="btKey" id="q" onclick="inicia('q')">Q</button>
+            <button class="btKey" id="r" onclick="inicia('r')">R</button>
+            <button class="btKey" id="s" onclick="inicia('s')">S</button>
+            <button class="btKey" id="t" onclick="inicia('t')">T</button>
+            <button class="btKey" id="u" onclick="inicia('u')">U</button>
+            <button class="btKey" id="v" onclick="inicia('v')">V</button>
+            <button class="btKey" id="w" onclick="inicia('w')">W</button>
+            <button class="btKey" id="x" onclick="inicia('x')">X</button>
+            <button class="btKey" id="y" onclick="inicia('y')">Y</button>
+            <button class="btKey" id="z" onclick="inicia('z')">Z</button>
+        </section>
+
+        <div class="dicas">
+
+            <button class="btKey" id="Dica 1" onclick="dica(id)">Dica 1</button>
+            <p class="dica1"></p>
+            <button class="btKey" id="Dica 2" onclick="dica(id)">Dica 2 </button>
+            <p class="dica2"></p>
+            <button class="btKey" id="Dica 3" onclick="dica(id)">Dica 3 </button>
+            <p class="dica3"></p>
+
+        </div>
+
+
+    </div>
+
+        
+
+        <div id="endGame">
+            <div id="DivEndGame">
+                <span id="spanEndGame">A palavra secreta é: </span>
+                <h2 id="resultGame">Você acertou, ganhou x% de descontos! </h2>
+                <h2 id="resultGame">Não foi dessa vez, em caso de 1ª compra ganhe 10% de desconto!</h2>
+                <P> JavaScript</P>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+
+</html>
